@@ -1,11 +1,12 @@
 <script>
-
-	export let myName
+ export let myName
+ import Nested from './Nested.svelte';
 </script>
 
 <main>
 	<h1>Hello {myName}</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+
+	<Nested />
 </main>
 
 <style>
