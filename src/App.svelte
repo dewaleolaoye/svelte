@@ -1,12 +1,16 @@
 <script>
  export let myName
  import Nested from './Nested.svelte';
+ import Card from './components/card.svelte';
 </script>
 
 <main>
 	<h1>Hello {myName}</h1>
 
 	<Nested />
+
+	<Card />
+
 </main>
 
 <style>
